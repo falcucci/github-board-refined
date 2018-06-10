@@ -1,5 +1,6 @@
 # React / ES6 Popup Example
 
+
 ## What it does
 
 This is an example of creating a browser action
