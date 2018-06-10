@@ -2,6 +2,7 @@
 
 
 ## What it does 
+<center> <h1>heading 1</h1> </center>
 <img src="https://github.com/falcucci/github-board-refined/blob/master/extension/images/icons8-100%25-480.png" align="left" width="300">
 
 This is an example of creating a browser action
