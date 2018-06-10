@@ -1,11 +1,13 @@
-# React / ES6 Popup Example
+# Github Project Board Refined
 
 
-## What it does
+## What it does 
+<img src="https://github.com/falcucci/github-board-refined/blob/master/extension/images/icons8-100%25-480.png" align="left" width="300">
 
 This is an example of creating a browser action
 [popup](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Add_a_button_to_the_toolbar#Adding_a_popup)
-UI in [React][react] and [ES6](http://es6-features.org/) JavaScript.
+UI in [React][react] and [ES6](http://es6-features.org/) JavaScript. 
+
 
 ## What it shows
 
