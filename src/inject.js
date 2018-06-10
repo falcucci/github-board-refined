@@ -1,2 +1,3 @@
-
-console.log('hey');
+window.onload = () => {
+  console.log('hey2');
+}
