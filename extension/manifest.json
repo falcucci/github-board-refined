@@ -2,14 +2,20 @@
   "manifest_version": 2,
   "name": "react-es6-popup-example",
   "version": "1.0",
-
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*/projects/*"
+      ],
+      "js": ["src/build/main.js"]
+    }
+  ],
   "browser_action": {
     "browser_style": true,
     "default_icon": {
       "48": "images/final-state-48.png",
-      "96": "images/Watermelon-96.png"
     },
-    "default_title": "React Example",
+    "default_title": "Github Board Refined",
     "default_popup": "popup.html"
   },
 
