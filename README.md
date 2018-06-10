@@ -1,11 +1,16 @@
+
 <h1 align="center">
   <b>Github Project Board Refined</b><br>
 </h1>
-<img src="https://github.com/falcucci/github-board-refined/blob/master/extension/images/icons8-100%25-480.png" align="left" width="300">
 
-[![GitHub issues](https://img.shields.io/github/issues/falcucci/github-board-refined.svg)](https://github.com/falcucci/github-board-refined/issues)
+[![GitHub issues](https://img.shields.io/github/issues/falcucci/github-board-refined.svg)](https://github.com/falcucci/github-board-refined/issues) [![GitHub issues](https://img.shields.io/github/issues/falcucci/github-board-refined.svg)](https://github.com/falcucci/github-board-refined/issues)
+
+<img src="https://github.com/falcucci/github-board-refined/blob/master/extension/images/icons8-100%25-480.png" align="left" width="200">
+
+
 
 This is an example of creating a browser action [popup](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Add_a_button_to_the_toolbar#Adding_a_popup) UI in [React][react] and [ES6](http://es6-features.org/) JavaScript. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat sem at mauris suscipit porta. Cras metus velit, elementum sed pellentesque a, pharetra eu eros. Etiam facilisis placerat euismod. Nam faucibus neque arcu, quis accumsan leo tincidunt varius. In vel diam enim. Sed id ultrices ligula. Maecenas at urna arcu. Sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. 
+
 
 ## What it shows
 
