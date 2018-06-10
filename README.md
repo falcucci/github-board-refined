@@ -46,8 +46,6 @@ Any time you edit a file, [web-ext][web-ext] will reload the extension
 in Firefox. To see the popup, click the watermelon icon from the browser bar.
 Here is what it looks like:
 
-![popup screenshot](screenshots/popup.png "React popup screenshot")
-
 [react]: https://facebook.github.io/react/
 [nodejs]: https://nodejs.org/en/
 [web-ext]: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext
