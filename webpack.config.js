@@ -13,7 +13,7 @@ module.exports = {
   output: {
     // This copies each source entry into the extension dist folder named
     // after its entry config key.
-    path: path.join(__dirname, 'distribution'),
+    path: path.join(path.resolve(__dirname), 'src', 'distribution'),
     filename: '[name].js',
   },
   module: {
