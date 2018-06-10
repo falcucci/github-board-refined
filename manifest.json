@@ -1,13 +1,25 @@
 {
+  "applications": {
+    "gecko": {
+      "id": "alexsandder.santos@luizalabs.com",
+      "strict_min_version": "42.0"
+    }
+  },
   "manifest_version": 2,
-  "name": "react-es6-popup-example",
+  "name": "github-board-refined",
   "version": "1.0",
   "content_scripts": [{
     "matches": [
       "https://github.com/*/projects/*"
     ],
     "js": [
-      "src/inject.js"
+      "src/scripts/jquery-3.1.0.min.js",
+      "src/scripts/jquery.modal.min.js",
+      "src/features/issue/modal.js"
+    ],
+    "css": [
+      "src/css/window.css",
+      "src/css/jquery.modal.min.css"
     ],
     "run_at": "document_end"
   }],
@@ -20,5 +32,9 @@
     "default_popup": "src/popup.html"
   },
 
-  "permissions": ["activeTab"]
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "activeTab"
+  ]
 }
