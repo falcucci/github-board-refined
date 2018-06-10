@@ -1,7 +1,5 @@
-# Github Project Board Refined
-
 <h1 align="center">
-  <b>What is it?</b><br>
+  <b>Github Project Board Refined</b><br>
 </h1>
 <img src="https://github.com/falcucci/github-board-refined/blob/master/extension/images/icons8-100%25-480.png" align="left" width="300">
 
