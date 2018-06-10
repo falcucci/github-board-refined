@@ -2,20 +2,22 @@
   "manifest_version": 2,
   "name": "react-es6-popup-example",
   "version": "1.0",
-  "content_scripts": [
-    {
-      "matches": [
-        "https://github.com/*/projects/*"
-      ]
-    }
-  ],
+  "content_scripts": [{
+    "matches": [
+      "https://github.com/*/projects/*"
+    ],
+    "js": [
+      "src/inject.js"
+    ],
+    "run_at": "document_end"
+  }],
   "browser_action": {
     "browser_style": true,
     "default_icon": {
-      "48": "extension/images/final-state-48.png"
+      "48": "src/images/final-state-48.png"
     },
     "default_title": "Github Board Refined",
-    "default_popup": "extension/popup.html"
+    "default_popup": "src/popup.html"
   },
 
   "permissions": ["activeTab"]

@@ -8,11 +8,12 @@ module.exports = {
     // For example, you could add a background script like:
     // background: './src/background.js',
     popup: './src/popup.js',
+    inject: './src/inject.js',
   },
   output: {
     // This copies each source entry into the extension dist folder named
     // after its entry config key.
-    path: path.join(path.resolve(__dirname), 'extension', 'dist'),
+    path: path.join(__dirname, 'distribution'),
     filename: '[name].js',
   },
   module: {
