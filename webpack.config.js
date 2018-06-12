@@ -10,6 +10,7 @@ module.exports = {
     popup: './src/popup.js',
     modal: './src/features/issues/modal.js',
     resize: './src/features/columns/resize.js',
+    hideReferences: './src/features/columns/hide-references.js',
   },
   output: {
     // This copies each source entry into the extension dist folder named

@@ -16,7 +16,8 @@
       "src/scripts/jquery-3.1.0.min.js",
       "src/scripts/jquery.modal.min.js",
       "src/features/issues/modal.js",
-      "src/features/columns/resize.js"
+      "src/features/columns/resize.js",
+      "src/features/columns/hide-references.js"
     ],
     "css": [
       "src/css/window.css",

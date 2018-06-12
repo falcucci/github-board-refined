@@ -194,8 +194,13 @@ function removeHash () {
   history.pushState("", document.title, window.location.pathname + window.location.search);
 }
 
-
 $(document).ready(function(){
+  setTimeout( function() {
+    $('.Details').each(function(i, obj) {
+      $(obj).removeClass('Details--on')
+    });
+
+  }, 300)
   $(cardModal).appendTo('body');
   var body = $('body');
   body.on('click', cardClasses, function(event){
