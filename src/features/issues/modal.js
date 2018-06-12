@@ -196,9 +196,6 @@ function removeHash () {
 
 
 $(document).ready(function(){
-  console.log($('[id^=column-]').css('min-width', '280px'))
-
-
   $(cardModal).appendTo('body');
   var body = $('body');
   body.on('click', cardClasses, function(event){
