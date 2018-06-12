@@ -2,7 +2,7 @@
 <h1 align="center">
   <b>Github Project Board Refined</b><br>
 </h1>
-<img src="https://github.com/falcucci/github-board-refined/blob/master/src/images/icons8-100%-480.png" align="left" width="300">
+<img src="https://github.com/falcucci/github-board-refined/blob/master/src/images/icons8-100%25-480.png" align="left" width="300">
 
 [![GitHub license](https://img.shields.io/github/license/falcucci/github-board-refined.svg?style=flat-square)](https://github.com/falcucci/github-board-refined/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/falcucci/github-board-refined.svg?style=flat-square)](https://github.com/falcucci/github-board-refined/issues) 
 
