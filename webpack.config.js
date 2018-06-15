@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -37,6 +38,16 @@ module.exports = {
     ],
   },
   plugins: [
+    new CopyWebpackPlugin([
+      {
+        from: '*',
+        context: 'src/distribution',
+        ignore: '*.js'
+      },
+      {
+        from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
+      }
+    ]),
     // Since some NodeJS modules expect to be running in Node, it is helpful
     // to set this environment var to avoid reference errors.
     new webpack.DefinePlugin({

@@ -16,6 +16,9 @@
     "js": [
       "src/scripts/jquery-3.1.0.min.js",
       "src/scripts/jquery.modal.min.js",
+      "src/distribution/browser-polyfill.min.js",
+
+
       "src/distribution/modal.js",
       "src/distribution/resize.js",
       "src/distribution/hideReferences.js"
@@ -28,7 +31,8 @@
   "background": {
     "persistent": false,
     "scripts": [
-      "src/distribution/background.js"
+      "src/distribution/background.js",
+      "src/distribution/browser-polyfill.min.js"
     ]
   },
   "browser_action": {

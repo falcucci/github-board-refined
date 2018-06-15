@@ -19,10 +19,12 @@
     "react-dom": "16.2.0",
     "web-ext": "2.3.2",
     "webpack": "4.8.3",
-    "webpack-cli": "^3.0.1"
+    "webpack-cli": "^3.0.1",
+    "copy-webpack-plugin": "^4.5.1"
   },
   "dependencies": {
     "uglifyjs-webpack-plugin": "^1.2.5",
-    "webext-dynamic-content-scripts": "5.0.1"
+    "webext-dynamic-content-scripts": "5.0.1",
+    "webextension-polyfill": "^0.2.1"
   }
 }
