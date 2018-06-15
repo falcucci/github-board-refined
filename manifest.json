@@ -9,21 +9,21 @@
   "name": "github-board-refined",
   "version": "1.0",
   "content_scripts": [{
+    "run_at": "document_start",
     "matches": [
       "https://github.com/*/projects/*"
     ],
     "js": [
       "src/scripts/jquery-3.1.0.min.js",
       "src/scripts/jquery.modal.min.js",
-      "src/features/issues/modal.js",
-      "src/features/columns/resize.js",
-      "src/features/columns/hide-references.js"
+      "src/distribution/modal.js",
+      "src/distribution/resize.js",
+      "src/distribution/hideReferences.js"
     ],
     "css": [
       "src/css/window.css",
       "src/css/jquery.modal.min.css"
-    ],
-    "run_at": "document_end"
+    ]
   }],
   "browser_action": {
     "browser_style": true,
@@ -37,6 +37,7 @@
   "permissions": [
     "storage",
     "contextMenus",
-    "activeTab"
+    "activeTab",
+    "https://api.github.com/*"
   ]
 }
