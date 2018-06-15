@@ -1,5 +1,5 @@
 {
-  "name": "react-es6-popup-example",
+  "name": "github-board-project-refined",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "webpack-cli": "^3.0.1"
   },
   "dependencies": {
-    "webext-dynamic-content-scripts": "5.0.1",
-    "uglifyjs-webpack-plugin": "^1.2.5"
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webext-dynamic-content-scripts": "5.0.1"
   }
 }
