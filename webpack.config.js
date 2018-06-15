@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -42,6 +43,24 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify('production'),
     }),
   ],
+  optimization: {
+    // Without this, function names will be garbled and enableFeature won't work
+    concatenateModules: true,
+
+    // Automatically enabled on prod; keeps it somewhat readable for AMO reviewers
+    minimizer: [
+      new UglifyJsPlugin({
+        uglifyOptions: {
+          mangle: false,
+          compress: false,
+          output: {
+            beautify: true,
+            indent_level: 2 // eslint-disable-line camelcase
+          }
+        }
+      })
+    ]
+  },
   // This will expose source map files so that errors will point to your
   // original source files instead of the transpiled files.
   devtool: 'sourcemap',

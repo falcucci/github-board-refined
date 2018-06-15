@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -w --display-error-details --progress --colors",
+    "build": "webpack -w --display-error-details --progress --colors --mode=production",
     "start": "web-ext run -s ./ --firefox=/opt/firefox/firefox --browser-console --start-url https://github.com/falcucci/github-board-refined/projects/1 "
   },
   "author": "",
@@ -18,9 +18,11 @@
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "web-ext": "2.3.2",
-    "webpack": "3.10.0"
+    "webpack": "4.8.3",
+    "webpack-cli": "^3.0.1"
   },
   "dependencies": {
-    "webext-dynamic-content-scripts": "5.0.1"
+    "webext-dynamic-content-scripts": "5.0.1",
+    "uglifyjs-webpack-plugin": "^1.2.5"
   }
 }
