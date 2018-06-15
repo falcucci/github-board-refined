@@ -7,7 +7,7 @@
     "build": "webpack -w --display-error-details --progress --colors --mode=production",
     "start": "web-ext run -s ./ --firefox=/opt/firefox/firefox --browser-console --start-url https://github.com/falcucci/github-board-refined/projects/1 "
   },
-  "author": "",
+  "author": "Alexsander Falcucci",
   "license": "MPL-2.0",
   "devDependencies": {
     "babel-core": "6.26.0",

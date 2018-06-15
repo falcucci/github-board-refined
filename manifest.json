@@ -25,6 +25,12 @@
       "src/css/jquery.modal.min.css"
     ]
   }],
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "src/distribution/background.js"
+    ]
+  },
   "browser_action": {
     "browser_style": true,
     "default_icon": {
