@@ -21,7 +21,8 @@
 
       "src/distribution/modal.js",
       "src/distribution/resize.js",
-      "src/distribution/hideReferences.js"
+      "src/distribution/hideReferences.js",
+      "src/distribution/content.js"
     ],
     "css": [
       "src/css/window.css",

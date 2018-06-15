@@ -9,6 +9,7 @@ module.exports = {
     // and included in the extension source.
     // For example, you could add a background script like:
     background: './src/background.js',
+    content: './src/content.js',
     popup: './src/popup.js',
     modal: './src/features/issues/modal.js',
     resize: './src/features/columns/resize.js',
