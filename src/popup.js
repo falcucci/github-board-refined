@@ -20,7 +20,7 @@ class Popup extends React.Component {
     const {activeTab} = this.state;
     return (
       <div>
-        <h1>React Component</h1>
+        <h1>Github Board Refined!</h1>
         <p>
           This is an example of a popup UI in React.
         </p>
