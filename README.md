@@ -6,8 +6,9 @@
 
 [![GitHub license](https://img.shields.io/github/license/falcucci/github-board-refined.svg?style=flat-square)](https://github.com/falcucci/github-board-refined/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/falcucci/github-board-refined.svg?style=flat-square)](https://github.com/falcucci/github-board-refined/issues) 
 
-This is an example of creating a browser action [popup](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Add_a_button_to_the_toolbar#Adding_a_popup) UI in [React][react] and [ES6](http://es6-features.org/) JavaScript. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat sem at mauris suscipit porta. Cras metus velit, elementum sed pellentesque a, pharetra eu eros. Etiam facilisis placerat euismod. Nam faucibus neque arcu, quis accumsan leo tincidunt varius. In vel diam enim. Sed id ultrices ligula. Maecenas at urna arcu. Sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien.
+This is an extension that improves your experience with [github projects](https://help.github.com/articles/about-project-boards/) creating new features, actions and layout enhancements to keep github complet making automatic things for us - just because github it's an awesome tool and needs automation to really works well - also, product owners will thank us. 
 
+After use it for two or three months, me and my team had a great view of what the amazing workflow would be like involving stories, goals and initiatives to achieve our final purpose/value using github projects. Many thoughts about new features to make things easier. We tried other tools as well but you know that the integration is not better then github itself.
 
 ## What it shows
 

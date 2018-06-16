@@ -1,0 +1,14 @@
+/* resize column */
+.project-column {
+  min-width: 230px !important;
+}
+
+/* remove author card */
+div[id^=card-] small {
+    display: none;
+}
+
+/* ajust title */
+.mr-5 {
+  margin-right:  20px !important;
+}
