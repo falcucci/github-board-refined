@@ -20,12 +20,12 @@
 
 
       "src/distribution/modal.js",
-      "src/distribution/resize.js",
       "src/distribution/hideReferences.js",
       "src/distribution/content.js"
     ],
     "css": [
       "src/css/window.css",
+      "src/css/content.css",
       "src/css/jquery.modal.min.css"
     ]
   }],
