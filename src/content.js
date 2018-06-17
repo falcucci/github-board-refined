@@ -10,7 +10,7 @@ async function init() {
     return
   }
 
-  applyFullScreen()
+  // applyFullScreen()
 
   hideReferences()
 

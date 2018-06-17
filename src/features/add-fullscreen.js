@@ -7,6 +7,7 @@ export const getUrlParameter = name => {
   return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 };
 
+
 export const applyFullScreen = () => {
   if (!getUrlParameter('fullscreen')) {
     window.location.href = document.URL + '?fullscreen=true'
