@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --watch --display-error-details --progress --colors --mode=production",
+    "release:amo": "web-ext build --source-dir=./ext --artifacts-dir=zips --overwrite-dest",
     "start": "web-ext run -s ./ --firefox=/opt/firefox/firefox --browser-console --start-url https://github.com/falcucci/github-board-refined/projects/1 "
   },
   "author": "Alexsander Falcucci",
