@@ -17,7 +17,7 @@ module.exports = {
   output: {
     // This copies each source entry into the extension dist folder named
     // after its entry config key.
-    path: path.join(path.resolve(__dirname), 'src', 'distribution'),
+    path: path.join(path.resolve(__dirname), 'ext', 'dist'),
     filename: '[name].js',
   },
   module: {

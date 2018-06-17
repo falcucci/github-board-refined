@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --watch --display-error-details --progress --colors --mode=development",
+    "build": "webpack --watch --display-error-details --progress --colors --mode=production",
     "start": "web-ext run -s ./ --firefox=/opt/firefox/firefox --browser-console --start-url https://github.com/falcucci/github-board-refined/projects/1 "
   },
   "author": "Alexsander Falcucci",
@@ -23,6 +23,7 @@
     "copy-webpack-plugin": "^4.5.1"
   },
   "dependencies": {
+    "@wext/shipit": "0.1.4",
     "dom-loaded": "1.0.1",
     "element-ready": "3.0.0",
     "lodash": "4.17.10",

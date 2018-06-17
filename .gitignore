@@ -2,5 +2,6 @@
 .DS_Store
 yarn.lock
 distribution/
+web-ext-artifacts
 node_modules
 .env

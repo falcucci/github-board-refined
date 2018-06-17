@@ -1,48 +1,48 @@
 {
   "applications": {
     "gecko": {
-      "id": "alexsandder.santos@luizalabs.com",
+      "id": "alexsander.santos@luizalabs.com",
       "strict_min_version": "42.0"
     }
   },
   "manifest_version": 2,
   "name": "github-board-refined",
-  "version": "1.0",
+  "version": "1.2",
   "content_scripts": [{
     "run_at": "document_start",
     "matches": [
       "https://github.com/*/projects/*"
     ],
     "js": [
-      "src/scripts/jquery-3.1.0.min.js",
-      "src/scripts/jquery.modal.min.js",
-      "src/distribution/browser-polyfill.min.js",
+      "scripts/jquery-3.1.0.min.js",
+      "scripts/jquery.modal.min.js",
+      "dist/browser-polyfill.min.js",
 
 
-      "src/distribution/modal.js",
-      "src/distribution/hideReferences.js",
-      "src/distribution/content.js"
+      "dist/modal.js",
+      "dist/hideReferences.js",
+      "dist/content.js"
     ],
     "css": [
-      "src/css/window.css",
-      "src/css/content.css",
-      "src/css/jquery.modal.min.css"
+      "css/window.css",
+      "css/content.css",
+      "css/jquery.modal.min.css"
     ]
   }],
   "background": {
     "persistent": false,
     "scripts": [
-      "src/distribution/background.js",
-      "src/distribution/browser-polyfill.min.js"
+      "dist/background.js",
+      "dist/browser-polyfill.min.js"
     ]
   },
   "browser_action": {
     "browser_style": true,
     "default_icon": {
-      "48": "src/images/final-state-48.png"
+      "48": "images/final-state-48.png"
     },
     "default_title": "Github Board Refined",
-    "default_popup": "src/popup.html"
+    "default_popup": "popup.html"
   },
 
   "permissions": [
