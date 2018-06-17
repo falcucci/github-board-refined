@@ -44,7 +44,7 @@ around [web-ext][web-ext]:
     npm start
 
 Any time you edit a file, [web-ext][web-ext] will reload the extension
-in Firefox. To see the popup, click the watermelon icon from the browser bar.
+in Firefox. To see the popup, click the purple icon from the browser bar.
 Here is what it looks like:
 
 [react]: https://facebook.github.io/react/
