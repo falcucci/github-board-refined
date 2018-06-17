@@ -12,7 +12,6 @@ module.exports = {
     content: './src/content.js',
     popup: './src/popup.js',
     modal: './src/features/issues/modal.js',
-    hideReferences: './src/features/columns/hide-references.js',
   },
   output: {
     // This copies each source entry into the extension dist folder named

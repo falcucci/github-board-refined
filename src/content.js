@@ -1,7 +1,7 @@
 import 'webext-dynamic-content-scripts'
 import select from 'select-dom'
 import { safeElementReady, shouldProceed } from './utils'
-import { applyFullScreen } from './features'
+import { applyFullScreen, hideReferences } from './features'
 
 async function init() {
   await safeElementReady('body')
@@ -11,6 +11,8 @@ async function init() {
   }
 
   applyFullScreen()
+
+  hideReferences()
 
 }
 
