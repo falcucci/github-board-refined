@@ -13,3 +13,14 @@ div[id^=card-] small {
 .mr-5 {
   margin-right:  20px !important;
 }
+
+/* remove author card */
+div[id^=card-] svg {
+ margin-right: 6px !important;
+}
+
+/* between columns */
+.mr-3 {
+ margin-right: 5px !important;
+}
+
