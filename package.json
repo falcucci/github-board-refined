@@ -27,6 +27,8 @@
   },
   "dependencies": {
     "@wext/shipit": "0.1.4",
+    "delegate": "3.2.0",
+    "dom-chef": "3.2.0",
     "dom-loaded": "1.0.1",
     "element-ready": "3.0.0",
     "lodash": "4.17.10",

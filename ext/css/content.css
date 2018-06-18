@@ -1,7 +1,8 @@
 /* resize column */
-.project-column {
+.project-columns .project-column {
   min-width: 230px !important;
   max-width: 230px !important;
+  margin-right: 5px !important;
 }
 
 /* remove author card */
@@ -18,9 +19,3 @@ div[id^=card-] small {
 div[id^=card-] svg {
  margin-right: 6px !important;
 }
-
-/* between columns */
-.mr-3 {
- margin-right: 5px !important;
-}
-

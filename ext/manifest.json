@@ -16,6 +16,7 @@
     "js": [
       "scripts/jquery-3.1.0.min.js",
       "scripts/jquery.modal.min.js",
+      "scripts/jquery.sidebar.min.js",
       "dist/browser-polyfill.min.js",
       "dist/modal.js",
       "dist/content.js"
