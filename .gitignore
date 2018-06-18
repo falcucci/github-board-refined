@@ -3,6 +3,7 @@
 yarn.lock
 distribution/
 ext/dist
+ext/.web-extension-id
 web-ext-artifacts
 node_modules
 zips
