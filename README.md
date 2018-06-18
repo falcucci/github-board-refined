@@ -6,7 +6,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/falcucci/github-board-refined.svg?style=flat-square)](https://github.com/falcucci/github-board-refined/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/falcucci/github-board-refined.svg?style=flat-square)](https://github.com/falcucci/github-board-refined/issues) 
 
-This is an extension that improves your experience with [github projects](https://help.github.com/articles/about-project-boards/) creating new features, actions and layout enhancements to keep github complet making automatic things for us - just because github it's an awesome tool and needs automation to really works well - also, product owners will thank us. 
+This is an extension that improves your experience with [github projects](https://help.github.com/articles/about-project-boards/) to manage your taskes with some new features, actions and layout enhancements to keep github complet making automatic things for us - just because github it's an awesome tool and needs automation to really works well - also, product owners will thank us. 
 
 After use it for two or three months, me and my team had a great view of what the amazing workflow would be like involving stories, goals and initiatives to achieve our final purpose/value using github projects. Many thoughts about new features to make things easier. We tried other tools as well but you know that the integration is not better then github itself.
 
@@ -44,7 +44,7 @@ around [web-ext][web-ext]:
     npm start
 
 Any time you edit a file, [web-ext][web-ext] will reload the extension
-in Firefox. To see the popup, click the watermelon icon from the browser bar.
+in Firefox. To see the popup, click the purple icon from the browser bar.
 Here is what it looks like:
 
 [react]: https://facebook.github.io/react/
