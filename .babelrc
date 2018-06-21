@@ -2,7 +2,7 @@
   "presets": [
     ["env", {
         "targets": {
-            "firefox": 57
+            "firefox": 60
         }
     }],
     "stage-2",
