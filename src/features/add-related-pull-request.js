@@ -17,10 +17,11 @@ export const addBtn = async ({target}) => {
   const url = target.attributes.getNamedItem('href').value
   const urlParts = url.split('/');
   const references = await api(url + '/timeline')
-  const shouldAdd = !select.exists('.project-pane .js-socket-channel .TableObject-item')
   let prLink = ''
   let inView = false
+  let shouldAdd = false
   let interval = setInterval(() => {
+    shouldAdd = !select.exists('.project-pane .js-socket-channel .TableObject-item')
     inView = select.exists('.project-pane .js-socket-channel .Details-content--shown')
     if (inView && shouldAdd) {
       clearInterval(interval)
