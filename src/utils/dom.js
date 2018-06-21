@@ -1,3 +1,4 @@
+import html from 'nanohtml'
 import elementReady from 'element-ready'
 import domLoaded from 'dom-loaded'
 
