@@ -25,7 +25,6 @@ export const addBtn = async ({target}) => {
     if (inView && shouldAdd) {
       clearInterval(interval)
       for (const reference of references) {
-        console.log('reference: ', reference);
         if (
           reference.event === "cross-referenced" &&
           _.has(reference, 'source.issue.pull_request.html_url')) {
