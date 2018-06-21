@@ -1,3 +1,4 @@
+'use strict';
 const path = require('path');
 const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
@@ -10,8 +11,7 @@ module.exports = {
     // For example, you could add a background script like:
     background: './src/background.js',
     content: './src/content.js',
-    popup: './src/popup.js',
-    modal: './src/features/issues/modal.js',
+    options: './src/options.js',
   },
   output: {
     // This copies each source entry into the extension dist folder named

@@ -17,5 +17,5 @@ div[id^=card-] small {
 
 /* remove author card */
 div[id^=card-] svg {
- margin-right: 6px !important;
+ margin-right: -5px !important;
 }

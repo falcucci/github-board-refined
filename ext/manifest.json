@@ -15,16 +15,12 @@
     ],
     "js": [
       "scripts/jquery-3.1.0.min.js",
-      "scripts/jquery.modal.min.js",
-      "scripts/jquery.sidebar.min.js",
       "dist/browser-polyfill.min.js",
-      "dist/modal.js",
       "dist/content.js"
     ],
     "css": [
       "css/window.css",
-      "css/content.css",
-      "css/jquery.modal.min.css"
+      "css/content.css"
     ]
   }],
   "background": {
@@ -40,9 +36,12 @@
       "48": "images/final-state-48.png"
     },
     "default_title": "Github Board Refined",
-    "default_popup": "popup.html"
+    "default_popup": "options.html"
   },
-
+  "options_ui": {
+    "chrome_style": true,
+    "page": "options.html"
+  },
   "permissions": [
     "storage",
     "contextMenus",
