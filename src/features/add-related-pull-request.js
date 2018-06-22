@@ -1,4 +1,4 @@
-import html from 'nanohtml'
+import {h} from 'dom-chef'
 import _ from 'lodash'
 import select from 'select-dom'
 import onetime from 'onetime'
@@ -33,21 +33,21 @@ export const addBtn = async ({target}) => {
           const prSplit = prLink.split('/');
           const prNumber = prSplit[prSplit.length - 1];
           select('.project-pane .js-socket-channel .Details-content--shown')
-            .after(html`
+            .after(
               <div class="TableObject-item">
-            <a
-            href=${prLink}
-            target="__blank"
-            class="btn
-            btn-outline
-            btn-sm
-            border-blue
-            rgh-closing-pr
-            tooltipped
-            tooltipped-se">
-            ${icons.openPullRequest()} #${prNumber}
-            </a>
-          </div>`
+                <a
+                  href={prLink}
+                  target="__blank"
+                  class="btn
+                  btn-outline
+                  btn-sm
+                  border-blue
+                  rgh-closing-pr
+                  tooltipped
+                  tooltipped-se">
+                  {icons.openPullRequest()} #{prNumber}
+                </a>
+              </div>
             );
         }
       }

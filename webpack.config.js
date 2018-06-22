@@ -1,6 +1,5 @@
 'use strict';
 const path = require('path');
-const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
@@ -25,7 +24,7 @@ module.exports = {
       exclude: /node_modules/,
       test: /\.js$/,
       // Babel options are in .babelrc
-      use: ['babel-loader'],
+      use: 'babel-loader',
     }],
   },
   resolve: {
@@ -47,11 +46,6 @@ module.exports = {
         from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
       }
     ]),
-    // Since some NodeJS modules expect to be running in Node, it is helpful
-    // to set this environment var to avoid reference errors.
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production'),
-    }),
   ],
   optimization: {
     // Without this, function names will be garbled and enableFeature won't work
@@ -73,5 +67,5 @@ module.exports = {
   },
   // This will expose source map files so that errors will point to your
   // original source files instead of the transpiled files.
-  devtool: 'source-map',
+  devtool: 'sourcemap',
 };
