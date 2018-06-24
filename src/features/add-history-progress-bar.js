@@ -27,8 +27,9 @@ const getCardPercentage = async refs => {
 
 export const addHistoryProgressBar = async (target) => {
   const history = select("task-lists", target)
+  let hasProgress = select.exists('#progress-bar-percentage', target)
   const references = select.all(".Details > .Details-content--hidden .js-project-issue-details-container", target)
-  if (history && !_.isEmpty(references)) {
+  if (!hasProgress && history && !_.isEmpty(references)) {
     const totalPercentage = await getCardPercentage(references)
     history.append(
       <div class="ml-10" id="progress-bar-percentage">
