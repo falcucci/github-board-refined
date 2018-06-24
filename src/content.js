@@ -6,7 +6,8 @@ import {
 import {
   applyFullScreen,
   addRelatedPullRequest,
-  addCardFeatures
+  addCardFeatures,
+  addNoteTemplate
 } from './features'
 
 async function init() {
@@ -17,6 +18,7 @@ async function init() {
 
   addCardFeatures()
   addRelatedPullRequest()
+  addNoteTemplate()
   // applyFullScreen()
 }
 
