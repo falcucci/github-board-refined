@@ -14,7 +14,6 @@
       "https://github.com/*/projects/*"
     ],
     "js": [
-      "scripts/jquery-3.1.0.min.js",
       "dist/browser-polyfill.min.js",
       "dist/content.js"
     ],
