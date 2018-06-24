@@ -2,7 +2,7 @@ import {h} from 'dom-chef'
 import _ from 'lodash'
 import select from 'select-dom'
 
-const getCardPercentage = refs => {
+const getCardPercentage = async refs => {
   let totalPercent = refs.length || 0
   let donePercent = '0%'
   let totalHistoryPercent = 0
@@ -29,9 +29,9 @@ export const addHistoryProgressBar = async (target) => {
   const history = select("task-lists", target)
   const references = select.all(".Details > .Details-content--hidden .js-project-issue-details-container", target)
   if (history && !_.isEmpty(references)) {
-    const totalPercentage = getCardPercentage(references)
+    const totalPercentage = await getCardPercentage(references)
     history.append(
-      <div class="ml-10">
+      <div class="ml-10" id="progress-bar-percentage">
         <div class="js-socket-channel js-updatable-content">
           <div class="tooltipped tooltipped-s">
             <span class="progress-bar progress-bar-small">
