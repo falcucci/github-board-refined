@@ -5,7 +5,6 @@ import {
 } from './utils'
 import {
   applyFullScreen,
-  hideReferences,
   addRelatedPullRequest,
   addCardFeatures
 } from './features'
@@ -17,7 +16,6 @@ async function init() {
   }
 
   addCardFeatures()
-  hideReferences()
   addRelatedPullRequest()
   // applyFullScreen()
 }
