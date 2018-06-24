@@ -1,21 +1,49 @@
 <!doctype html>
 <meta charset="utf-8">
 <title>Github Project Board options</title>
-<link rel="stylesheet" href="options.css">
-<link rel="stylesheet" href="chrome://global/skin/in-content/common.css">
+<link rel="stylesheet" href="css/options.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="chrome://mozapps/skin/extensions/extensions.css">
-<form id="options-form" class="detail-view-container">
-  <h2 class="only-firefox">Github Board Refined</h2>
-  <p>
-  <label>
-    <strong>Personal token</strong>,
-    <a href="https://github.com/settings/tokens/new?description=Github Board Project Refined"
-      target="_blank">
-      found here
-    </a> (for high rate API calls and private repos)<br>
-    <!-- placeholder is set to enable use of :placeholder-shown CSS selector -->
-    <input name="personalToken" spellcheck="false" autocomplete="off" size="40" maxlength="40" pattern="[\da-f]{40}" placeholder=" "></input>
-  </label>
-  </p>
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 ">
+        <form role="form" id="options-form">
+          <h2>Github Board Refined 💜 <small>Improving your workflow experience.</small></h2>
+          <hr class="colorgraph">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="text" name="personalToken" spellcheck="false" autocomplete="off" size="40" maxlength="40" class="form-control input-lg key" pattern="[\da-f]{40}" placeholder=" ">
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="submit" value="Save" class="btn btn&#45;success btn&#45;block btn&#45;lg">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              By clicking <strong class="label label-primary">Save</strong>, your token would be saved locally and sync automatically by the browser. Please, create a token with read/write permission from <a href="https://github.com/settings/tokens/new?description=Github Board Project Refined">here</a> for high rate API calls and private repos.
+            </div>
+          </div>
+          <br />
+
+          <!-- <hr class="colorgraph"> -->
+          <!-- <div class="row"> -->
+          <!-- 	<div class="col&#45;xs&#45;6 col&#45;md&#45;6"><input type="submit" value="Register" class="btn btn&#45;primary btn&#45;block btn&#45;lg" tabindex="7"></div> -->
+          <!-- 	<div class="col&#45;xs&#45;6 col&#45;md&#45;6"><a href="#" class="btn btn&#45;success btn&#45;block btn&#45;lg">Sign In</a></div> -->
+          <!-- </div> -->
+        </form>
+      </div>
+    </div>
+  </div>
   <script src="dist/browser-polyfill.min.js"></script>
   <script src="dist/options.js"></script>
+
+
+
+
+
