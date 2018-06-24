@@ -1,7 +1,6 @@
 import {h} from 'dom-chef'
 import _ from 'lodash'
 import select from 'select-dom'
-import onetime from 'onetime'
 import { observe } from 'selector-observer'
 import { icons, safeElementReady, api } from '../utils'
 
