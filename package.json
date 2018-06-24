@@ -40,6 +40,17 @@
     "webext-options-sync": "0.15.2",
     "webextension-polyfill": "^0.2.1"
   },
+  "changelog": {
+    "repo": "falcucci/github-board-refined",
+    "labels": {
+      "breaking": ":boom: Breaking Change",
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "documentation": ":memo: Documentation",
+      "internal": ":house: Internal"
+    },
+    "cacheDir": ".changelog"
+  },
   "babel": {
     "plugins": [
       [
