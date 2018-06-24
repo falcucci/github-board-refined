@@ -17,13 +17,13 @@ export const addHistoryProgressBar = async (target) => {
     let totalHistoryPercent = percentages.reduce((p1, p2) => p1 + p2) * 100 / totalPercent
     history.append(
       <div class="ml-10">
-      <div class="js-socket-channel js-updatable-content">
+        <div class="js-socket-channel js-updatable-content">
           <div class="tooltipped tooltipped-s">
             <span class="progress-bar progress-bar-small">
               <span class="progress d-inline-block bg-green" style={{ width: `${totalHistoryPercent}%`}}>&nbsp;</span>
             </span>
-      </div>
-      </div>
+          </div>
+        </div>
       </div>
     )
   }
