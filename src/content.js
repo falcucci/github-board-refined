@@ -3,7 +3,6 @@ import select from 'select-dom'
 import {
   safeElementReady,
   shouldProceed,
-  fetchHtml
 } from './utils'
 import {
   applyFullScreen,
@@ -18,8 +17,6 @@ const init = async () => {
   if (!shouldProceed()) {
     return
   }
-  // let token = fetchHtml("https://github.com/falcucci/github-board-refined/issues/2/show_from_project")
-  // console.log('token: ', token);
   addCardFeatures()
   addRelatedPullRequest()
   addNoteTemplate()
