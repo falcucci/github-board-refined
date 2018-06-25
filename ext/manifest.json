@@ -31,7 +31,7 @@
     ]
   },
   "browser_action": {
-    "browser_style": true,
+    "browser_style": false,
     "default_icon": {
       "48": "images/final-state-48.png"
     },
@@ -39,13 +39,15 @@
     "default_popup": "options.html"
   },
   "options_ui": {
-    "chrome_style": true,
+    "chrome_style": false,
     "page": "options.html"
   },
   "permissions": [
     "storage",
     "contextMenus",
     "activeTab",
-    "https://api.github.com/*"
+    "https://api.github.com/*",
+    "https://jsbin-user-assets.s3.amazonaws.com/*",
+    "https://jsbin-user-assets.s3.amazonaws.com/rafaelcastrocouto/password.ttf"
   ]
 }
