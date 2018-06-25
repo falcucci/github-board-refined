@@ -45,12 +45,11 @@ export const api = async endpoint => {
 
 export const fetchHtml = async endpoint => {
   const div = document.createElement('div');
-  let a = microAjax(endpoint, function(res) {
+  let token = ''
+  microAjax(endpoint, function(res) {
     div.innerHTML = res.trim();
     const elementToken = select('.js-suggester-container', div);
-    const token = elementToken.attributes.getNamedItem('data-preview-authenticity-token').value
-    return token
+    token = elementToken.attributes.getNamedItem('data-preview-authenticity-token').value
   })
-  console.log('a: ', a);
-  return a
+  console.log('token: ', token);
 }
