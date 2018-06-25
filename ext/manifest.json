@@ -14,6 +14,7 @@
       "https://github.com/*/projects/*"
     ],
     "js": [
+      "scripts/microajax.minified.js",
       "dist/browser-polyfill.min.js",
       "dist/content.js"
     ],
@@ -47,6 +48,7 @@
     "contextMenus",
     "activeTab",
     "https://api.github.com/*",
+    "https://github.com/*",
     "https://jsbin-user-assets.s3.amazonaws.com/*",
     "https://jsbin-user-assets.s3.amazonaws.com/rafaelcastrocouto/password.ttf"
   ]
