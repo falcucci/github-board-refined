@@ -1,3 +1,8 @@
+#facebox > .facebox-popup > .facebox-content {
+  min-width: 600px !important;
+  width: 600px !important;
+}
+
 /* resize column */
 .project-columns .project-column {
   min-width: 230px !important;
@@ -19,3 +24,4 @@ div[id^=card-] small {
 div[id^=card-] svg {
  margin-right: -5px !important;
 }
+
