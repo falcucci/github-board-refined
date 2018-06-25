@@ -7,14 +7,13 @@
   },
   "manifest_version": 2,
   "name": "github-board-refined",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "content_scripts": [{
     "run_at": "document_start",
     "matches": [
       "https://github.com/*/projects/*"
     ],
     "js": [
-      "scripts/microajax.minified.js",
       "dist/browser-polyfill.min.js",
       "dist/content.js"
     ],
@@ -40,7 +39,7 @@
     "default_popup": "options.html"
   },
   "options_ui": {
-    "chrome_style": true,
+    "chrome_style": false,
     "page": "options.html"
   },
   "permissions": [
