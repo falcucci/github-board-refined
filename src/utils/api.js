@@ -1,4 +1,5 @@
-import OptionsSync from 'webext-options-sync';
+import OptionsSync from 'webext-options-sync'
+import select from 'select-dom'
 
 const cache = new Map();
 
@@ -41,3 +42,15 @@ export const api = async endpoint => {
   }
   return json;
 };
+
+export const fetchHtml = async endpoint => {
+  const div = document.createElement('div');
+  let a = microAjax(endpoint, function(res) {
+    div.innerHTML = res.trim();
+    const elementToken = select('.js-suggester-container', div);
+    const token = elementToken.attributes.getNamedItem('data-preview-authenticity-token').value
+    return token
+  })
+  console.log('a: ', a);
+  return a
+}
