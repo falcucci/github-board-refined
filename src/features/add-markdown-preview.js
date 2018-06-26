@@ -7,6 +7,7 @@ import {
   safeElementReady,
   api,
   fetchHtml,
+  constants,
   forms
 } from '../utils'
 
@@ -26,11 +27,11 @@ export const addPreview = async el => {
   }
   const content = textArea.value
   const currentForm = select('.form-group', el)
-  const html = await fetchHtml("https://github.com/falcucci/github-board-refined/issues/2/show_from_project")
+  const html = await fetchHtml(constants.URL_TOKEN)
   const authenticityToken = select('form > input[name="authenticity_token"]', html).value
   const elementPreviewToken = select('.js-suggester-container', html);
   const previewToken = elementPreviewToken.attributes.getNamedItem('data-preview-authenticity-token').value
-  const elementUploadToken = select('.js-comment-update', html)
+  const elementUploadToken = select('.write-content.js-write-bucket.js-uploadable-container', html)
   const uploadToken = elementUploadToken.attributes.getNamedItem('data-upload-policy-authenticity-token').value
 
   currentForm.after(forms.previewForm(authenticityToken, previewToken, uploadToken))
