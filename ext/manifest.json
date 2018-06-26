@@ -7,14 +7,13 @@
   },
   "manifest_version": 2,
   "name": "github-board-refined",
-  "version": "2.1",
+  "version": "2.1.5",
   "content_scripts": [{
     "run_at": "document_start",
     "matches": [
       "https://github.com/*/projects/*"
     ],
     "js": [
-      "scripts/microajax.minified.js",
       "dist/browser-polyfill.min.js",
       "dist/content.js"
     ],
@@ -32,7 +31,7 @@
     ]
   },
   "browser_action": {
-    "browser_style": false,
+    "browser_style": true,
     "default_icon": {
       "48": "images/final-state-48.png"
     },

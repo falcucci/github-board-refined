@@ -1,11 +1,11 @@
 import {h} from 'dom-chef'
 
 export const forms = {
-  previewForm: () =>
+  previewForm: (token) =>
   <div id="note-form-injected"
     className="js-suggester-container js-previewable-comment-form previewable-comment-form write-selected"
     data-preview-url="/preview?markdown_unsupported=false&repository=136762146&subject=0&subject_type=Issue"
-    data-preview-authenticity-token="LPmBeZptGgSv+0rXP5nudvBsXZV+dRiCG9txT2emeEZOijMyofgvS97LNhg1pewiwRdpP27QHKdcU1ubGHzayQ==">
+    data-preview-authenticity-token={token}>
     <div className="comment-form-head tabnav">
       <markdown-toolbar for="card_note_text" className="toolbar-commenting">
         <div className="toolbar-group">
