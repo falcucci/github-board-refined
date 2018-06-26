@@ -2,7 +2,7 @@ import {h} from 'dom-chef'
 
 export const forms = {
   previewForm: (authenticityToken, previewToken, uploadToken) => {
-    return
+    return (
       <div id="note-form-injected"
         className="js-suggester-container js-previewable-comment-form previewable-comment-form write-selected"
         data-preview-url="/preview?markdown_unsupported=false&repository=136762146&subject=0&subject_type=Issue"
@@ -197,5 +197,6 @@ export const forms = {
               </div>
               <div className="comment-form-error comment-form-bottom js-comment-update-error" />
             </div>
+    )
   }
 }
