@@ -1,11 +1,11 @@
 import {h} from 'dom-chef'
 
 export const forms = {
-  previewForm: (token) =>
+  previewForm: (authenticityToken, previewToken, uploadToken) =>
   <div id="note-form-injected"
     className="js-suggester-container js-previewable-comment-form previewable-comment-form write-selected"
     data-preview-url="/preview?markdown_unsupported=false&repository=136762146&subject=0&subject_type=Issue"
-    data-preview-authenticity-token={token}>
+    data-preview-authenticity-token={previewToken}>
     <div className="comment-form-head tabnav">
       <markdown-toolbar for="card_note_text" className="toolbar-commenting">
         <div className="toolbar-group">
@@ -115,7 +115,11 @@ export const forms = {
           </div>
           <div className="comment-form-error js-comment-form-error" style={{display: 'none'}}>    There was an error creating your Issue.
           </div>
-          <div className="write-content js-write-bucket js-uploadable-container js-upload-markdown-image is-default upload-enabled" data-upload-policy-url="/upload/policies/assets" data-upload-policy-authenticity-token="ZiZwD6N69U26WiGBAN/uUtJN0i/ZIgnhaLRueoacU23sCo6mxbETrBZK/x71yh+HXmeJG4kLMbXaIaArNDNlig==" data-upload-repository-id={136762146}>
+          <div
+            className="write-content js-write-bucket js-uploadable-container js-upload-markdown-image is-default upload-enabled"
+            data-upload-policy-url="/upload/policies/assets"
+            data-upload-policy-authenticity-token={uploadToken}
+            data-upload-repository-id={136762146}>
             <input name="saved_reply_id" className="js-saved-reply-id js-resettable-field" defaultValue data-reset-value type="hidden" />
             <textarea name="project_card[note]" id="card_note_text" placeholder="Leave a comment" aria-label="Comment body" className="form-control input-contrast comment-form-textarea js-comment-field js-task-list-field js-quick-submit js-size-to-fit js-suggester-field js-quote-selection-target js-session-resumable js-saved-reply-shortcut-comment-field" defaultValue={""} />
             <p className="drag-and-drop position-relative">
