@@ -1,19 +1,47 @@
 # Change Log
 
-## [Unreleased](https://github.com/falcucci/github-board-refined/tree/HEAD)
+## [v2.1.6](https://github.com/falcucci/github-board-refined/tree/v2.1.6) (2018-06-26)
+[Full Changelog](https://github.com/falcucci/github-board-refined/compare/v2.1.5...v2.1.6)
 
-[Full Changelog](https://github.com/falcucci/github-board-refined/compare/v2.1.0...HEAD)
+:rocket: **New Features**
 
-:rocket: **New Feature**
+- Pop-up: add buttons to improve markdown editor [\#33](https://github.com/falcucci/github-board-refined/issues/33)
 
+:bug: **Bug Fixes**
+
+- Note pop-up: get upload token to upload image into markdown [\#41](https://github.com/falcucci/github-board-refined/issues/41)
+
+## [v2.1.5](https://github.com/falcucci/github-board-refined/tree/v2.1.5) (2018-06-25)
+[Full Changelog](https://github.com/falcucci/github-board-refined/compare/v2.1.4...v2.1.5)
+
+## [v2.1.4](https://github.com/falcucci/github-board-refined/tree/v2.1.4) (2018-06-25)
+[Full Changelog](https://github.com/falcucci/github-board-refined/compare/v2.1.3...v2.1.4)
+
+## [v2.1.3](https://github.com/falcucci/github-board-refined/tree/v2.1.3) (2018-06-25)
+[Full Changelog](https://github.com/falcucci/github-board-refined/compare/v2.1.2...v2.1.3)
+
+## [v2.1.2](https://github.com/falcucci/github-board-refined/tree/v2.1.2) (2018-06-25)
+[Full Changelog](https://github.com/falcucci/github-board-refined/compare/v2.1.1...v2.1.2)
+
+## [v2.1.1](https://github.com/falcucci/github-board-refined/tree/v2.1.1) (2018-06-25)
+[Full Changelog](https://github.com/falcucci/github-board-refined/compare/v2.1.0...v2.1.1)
+
+:rocket: **New Features**
+
+- Popup: add preview for every note/history [\#32](https://github.com/falcucci/github-board-refined/issues/32)
 - Remove author from any note [\#9](https://github.com/falcucci/github-board-refined/issues/9)
+
+:bug: **Bug Fixes**
+
+- Platform: fix Chrome pop-up size [\#37](https://github.com/falcucci/github-board-refined/issues/37)
+- Cards: hide references bug when remove class [\#34](https://github.com/falcucci/github-board-refined/issues/34)
 
 ## [v2.1.0](https://github.com/falcucci/github-board-refined/tree/v2.1.0) (2018-06-24)
 [Full Changelog](https://github.com/falcucci/github-board-refined/compare/v2.0.0...v2.1.0)
 
-:rocket: **New Feature**
+:rocket: **New Features**
 
-- Popup: improve UX experience! 📝 [\#29](https://github.com/falcucci/github-board-refined/issues/29)
+- Popup: improve UX experience! 🎨 [\#29](https://github.com/falcucci/github-board-refined/issues/29)
 
 ## [v2.0.0](https://github.com/falcucci/github-board-refined/tree/v2.0.0) (2018-06-24)
 :rocket: **New Feature**
@@ -30,3 +58,4 @@
 - Resize board columns  [\#6](https://github.com/falcucci/github-board-refined/issues/6)
 - Create default template when create a note [\#5](https://github.com/falcucci/github-board-refined/issues/5)
 - Create a modal to show the issue's information [\#1](https://github.com/falcucci/github-board-refined/issues/1)
+
