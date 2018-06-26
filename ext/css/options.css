@@ -12,7 +12,7 @@
 @font-face {
   font-family: 'password';
   font-style: normal;
-  src: url('../fonts/password.ttf');
+  src: url('https://github.com/falcucci/github-board-refined/blob/master/ext/fonts/password.ttf?raw=true');
 }
 
 input.key {
