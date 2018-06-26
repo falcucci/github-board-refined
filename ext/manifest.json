@@ -7,7 +7,7 @@
   },
   "manifest_version": 2,
   "name": "github-board-refined",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "content_scripts": [{
     "run_at": "document_start",
     "matches": [
