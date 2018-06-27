@@ -29,16 +29,16 @@ const getCardPercentage = async refs => {
 export const addHistoryProgressBar = async (target) => {
   await elementReady("task-lists", target);
   const history = select("task-lists", target)
-  let hasProgress = select.exists('#progress-bar-percentage', target)
+  const hasProgress = select.exists('#progress-bar-percentage', history)
   const references = select.all(".Details > .Details-content--hidden .js-project-issue-details-container", target)
   if (!hasProgress && history && !_.isEmpty(references)) {
     const totalPercentage = await getCardPercentage(references)
     history.append(
-      <div class="ml-10" id="progress-bar-percentage">
-        <div class="js-socket-channel js-updatable-content">
-          <div class="tooltipped tooltipped-s">
-            <span class="progress-bar progress-bar-small">
-              <span class="progress d-inline-block bg-green" style={{ width: `${totalPercentage}%`}}>&nbsp;</span>
+      <div className="ml-10" id="progress-bar-percentage">
+        <div className="js-socket-channel js-updatable-content">
+          <div className="tooltipped tooltipped-s">
+            <span className="progress-bar progress-bar-small">
+              <span className="progress d-inline-block bg-green" style={{ width: `${totalPercentage}%`}}>&nbsp;</span>
             </span>
           </div>
         </div>
