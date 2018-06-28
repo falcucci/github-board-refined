@@ -25,3 +25,6 @@ div[id^=card-] svg {
  margin-right: -5px !important;
 }
 
+.IssueLabel {
+  margin-left: 2px !important;
+}

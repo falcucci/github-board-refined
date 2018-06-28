@@ -1,6 +1,7 @@
 import { observe } from 'selector-observer'
 import { addHistoryProgressBar }from './add-history-progress-bar'
 import { hideReferences } from './hide-references'
+import { addLabels } from './add-labels'
 
 export const addCardFeatures = async () => {
 
@@ -14,6 +15,7 @@ export const addCardFeatures = async () => {
 }
 
 export const cardFeatures = async el => {
+  addLabels(el)
   addHistoryProgressBar(el)
   hideReferences(el)
 }
