@@ -4,13 +4,13 @@ import select from 'select-dom'
 import elementReady from 'element-ready'
 
 const getCardPercentage = async refs => {
+  /* get issues and boards as refs in the note */
+  const issues = select.all('.octicon-issue-closed', refs)
+  const boards = select.all('.octicon-project', refs)
   let totalPercent = refs.length || 0
   let donePercent = '0%'
   let totalHistoryPercent = 0
   let percentages = []
-  /* get issues refs in the note */
-  const issues = select.all('.octicon-issue-closed', refs)
-  const boards = select.all('.octicon-project', refs)
   if (!_.isEmpty(boards)) {
     totalPercent = totalPercent * 100
     donePercent = select.all('.bg-green', refs)
