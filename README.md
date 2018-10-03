@@ -10,18 +10,6 @@ This is an extension that improves your experience with [github projects](https:
 
 After use it for two or three months, me and my team had a great view of what the amazing workflow would be like involving stories, goals and initiatives to achieve our final purpose/value using github projects. Many thoughts about new features to make things easier. We tried other tools as well but you know that the integration is not better then github itself.
 
-## What it shows
-
-* How to bundle [React][react] and any other [NodeJS][nodejs] module into an
-  extension.
-* How to transpile code that is not supported natively in
-  a browser such as
-  [import / export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-  syntax and [JSX](https://facebook.github.io/react/docs/jsx-in-depth.html).
-* How to continuously build code as you edit files.
-* How to customize [web-ext][web-ext] for your extension's specific needs.
-* How to structure your code in reusable ES6 modules.
-
 ## Usage
 
 First, you need to change into the example subdirectory and install all
