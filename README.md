@@ -10,6 +10,10 @@ This is an extension that improves your experience with [github projects](https:
 
 After use it for two or three months, me and my team had a great view of what the amazing workflow would be like involving stories, goals and initiatives to achieve our final purpose/value using github projects. Many thoughts about new features to make things easier. We tried other tools as well but you know that the integration is not better then github itself.
 
+## Install
+
+- [**Chrome** extension](https://chrome.google.com/webstore/detail/github-board-refined/ekojnklghbcfapjpedpnlcjeibjgdank)
+
 ## Usage
 
 First, you need to change into the example subdirectory and install all
