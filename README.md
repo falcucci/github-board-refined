@@ -42,6 +42,16 @@ Here is what it looks like:
 [nodejs]: https://nodejs.org/en/
 [web-ext]: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext
 
+### Modules
+
+Most of the active development is happening inside of small npm packages which are used by WebTorrent.
+
+#### The Node Way&trade;
+
+> "When applications are done well, they are just the really application-specific, brackish residue that can't be so easily abstracted away. All the nice, reusable components sublimate away onto github and npm where everybody can collaborate to advance the commons." — substack from ["how I write modules"](http://substack.net/how_I_write_modules)
+
+![node.js is shiny](https://feross.net/x/node2.gif)
+
 ## Icons
 
 The icon for this extension is provided by [icons8](https://icons8.com/).
