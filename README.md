@@ -12,6 +12,7 @@ After of use it for two or three months ago, me and my team had a great view of 
 ## Install
 
 - [**Chrome** extension](https://chrome.google.com/webstore/detail/github-board-refined/ekojnklghbcfapjpedpnlcjeibjgdank)
+- Firefox
 
 ## Usage
 
